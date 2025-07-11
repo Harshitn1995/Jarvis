@@ -1,244 +1,37 @@
-Jump to Content
+---
+layout: default
+title: Creating Segment
+---
 
-User Documentation
+<button onclick="window.history.back()">🔙 Go Back</button>
 
-* * *
+Welcome to **Jarvis's guide** to getting started with **Email Marketing**.
 
-Developer HubKnowledge BaseLog In
+## 📘 Jarvis Docs Menu
 
-User Documentation
+### 🔹 Basics
+- [Users](./users.html)
+- [Events](./core-concepts-events.html)
 
-Developer HubKnowledge BaseLog In
+### 📊 Analytics
+- [Overview](./analytics-overview.html)
+- [Dashboard](./analytics-dashboard.html)
 
-User Documentation
+### 🧩 Segments
+- [What are Segments?](./segments.html)
+- [Create a Segment](./segments-setup.html)
 
-Creating Live Segments
+### 📣 Campaign Manager
+- [In-App](./inapp.md)
+- [SMS](./sms.md)
+- [Push](./push.md)
+- [Web Push](./webpush.md)
+- [WhatsApp](./whatsapp.md)
+- [Journey](./journey.md)
 
-Creating Live Segments
+---
 
-Search
-
-WebEngage Basics
-----------------
-
-*   Preface
-*   Users
-*   Events
-    *   Understanding Events & Event Attributes
-
-Analytics
----------
-
-*   Dashboards
-*   Analyzing Users
-    *   Analyzing User Profiles
-*   Analyzing Events
-*   Paths
-*   RFM Analysis
-*   Funnels
-    *   List of Funnels
-    *   Creating Funnels
-    *   Analyzing Funnels
-    *   Modifying Funnels
-    *   Help Center
-*   Cohorts
-    *   Cohort Analysis: Use-cases
-    *   Analyzing Cohorts
-    *   Help Center
-*   Uninstalls
-*   Live
-
-Segments
---------
-
-*   Getting Started
-*   Live Segments
-    *   Live Segments Hub
-    *   Creating Live Segments
-    *   Analyzing Live Segments
-    *   Modifying Live Segments
-*   Lists
-    *   Lists Hub
-    *   Creating Lists
-    *   Analyzing Lists
-*   Refreshing Lists
-*   Predictive Segments
-*   Help Center
-
-Data Platform
--------------
-
-*   Data Management
-    *   Defining Data Model
-    *   System Attributes
-    *   User Profile Attributes
-    *   Custom Events
-    *   Revenue Mapping
-    *   Personally Identifiable Information (PII)
-    *   Conversion Card Setting
-*   Upload Data
-    *   Upload User Data
-    *   Upload Events Data
-*   Engagement Score
-*   Web Integration
-*   Android Integration
-*   iOS Integration
-*   Rest API
-*   Webhooks
-*   Catalogs and Recommendations
-    *   Collections
-*   Custom Alerts
-
-Campaign Manager
-----------------
-
-*   Key Concepts
-    *   Channels & Channel Reachability
-    *   Campaigns & Its Types
-    *   Preface
-    *   Conversion Tracking
-    *   Control Groups
-    *   Revenue Tracking
-    *   Campaign & Channel Performance Indicators
-    *   Campaign Variations and Multivariate Testing
-    *   Frequency Capping
-    *   DND Hours
-    *   Queueing
-    *   Throttling (Message Rate-Limiting)
-    *   Send Intelligently
-*   Engagement Overview
-*   Push
-    *   Channel Configuration
-    *   List of Campaigns
-    *   Creating Push Campaigns
-    *   Creating Transactional Push Campaigns
-    *   Analyzing Push Campaigns
-    *   Analyzing Push Overview
-    *   Push Layouts: Image & Text Guidelines
-    *   Creating Dynamic Push Experiences Using Key-Value Pairs
-    *   Help Center
-*   SMS
-    *   SSP Integration
-    *   List of Campaigns
-    *   Creating SMS Campaigns
-    *   Creating Transactional SMS Campaigns
-    *   Analyzing SMS Campaigns
-    *   Analyzing SMS Overview
-    *   Help Center
-*   RCS
-    *   RSP Integration
-    *   List of Campaigns
-    *   Creating RCS Campaigns
-    *   Accessing and Understanding RCS Campaigns
-    *   Analyzing RCS Channel Overview
-    *   Analyzing RCS Campaign
-    *   Rich Communication Service Template Creation
-    *   Help Center
-*   Web Push
-    *   Channel Configuration
-    *   List of Campaigns
-    *   Creating Web Push Campaigns
-    *   Analyzing Web Push Campaigns
-    *   Analyzing Web Push Overview
-    *   Web Push Layouts: Image & Text Guidelines
-    *   Help Center
-*   Email
-    *   ESP Integration
-    *   List of Campaigns
-    *   Creating Email Campaigns
-    *   Creating Transactional Email Campaigns
-    *   Using the Drag & Drop Editor
-    *   Analyzing Email Campaigns
-    *   Analyzing Email Overview
-    *   Image & Text Guidelines
-    *   Help Center
-    *   AMP Emails
-    *   AMP Email Use Cases
-    *   Add Brand Logo to Emails
-*   WhatsApp
-    *   WhatsApp Integration
-    *   List of Campaigns
-    *   Creating WhatsApp Campaigns
-    *   Creating Transactional WhatsApp Campaigns
-    *   Accessing and Understanding WhatsApp Campaigns
-    *   Analyzing WhatsApp Campaign
-    *   Analyzing WhatsApp Channel Overview
-    *   Help Center
-*   Facebook
-    *   Facebook Business Integration
-    *   Help Center
-*   Google Ads
-*   TikTok
-*   Journeys
-    *   List of Journeys
-    *   Journey Creation Guide
-    *   Journey Creation: How It Works
-    *   Analyzing a Journey
-    *   Analyzing Journeys' Overview
-*   Relays
-    *   Getting Started
-    *   Catalog Based Relays
-*   Reports
-    *   List of Scheduled Reports
-    *   Schedule Channel Performance Reports
-    *   Understanding Report Stats
-*   Configurations
-    *   DND Hours
-    *   Throttling
-    *   Frequency Capping
-    *   Custom Domain
-    *   Configure Control Groups
-    *   UTM Parameters
-
-Website Personalization
------------------------
-
-*   Web Personalization: In-line Content
-    *   List of Campaigns
-    *   Creating Web In-line Content Campaigns
-    *   Analyzing Inline Web In-line Campaigns
-    *   Analyzing Web In-line Overview
-*   On-site Notifications
-    *   Advanced Targeting
-    *   List of Campaigns
-    *   Creating On-site Notifications
-    *   Analyzing On-site Notifications
-    *   Modifying On-site Notifications
-    *   Notification Settings
-*   On-site Surveys
-    *   Advanced Targeting
-    *   List of Surveys
-    *   Creating Surveys
-    *   Analyzing Responses
-    *   Modifying Surveys
-    *   Survey Settings
-
-App Personalization
--------------------
-
-*   In-app Notifications
-    *   In-app Message Targeting
-    *   List of Campaigns
-    *   Creating In-app Campaigns
-    *   Analyzing In-app Campaigns
-    *   Analyzing In-app Overview
-    *   In-app Layouts: Image & Text Guidelines
-    *   Help Center
-*   App In- Line Content
-    *   Getting Started
-    *   Understanding Properties
-    *   List of Campaigns
-    *   Creating App In-line Campaigns
-    *   Accessing and Understanding App In-line Campaigns
-    *   Analyzing App In-line Campaigns
-    *   Analyzing App In-line Overview
-    *   FAQ
-
-Settings
---------
-
-*   Audit Log
-*   Role-Based Access Control
+## ✉️ Let's Get You Started with Email
 
 Creating Live Segments
 ======================
@@ -275,7 +68,7 @@ Click to enlarge
 
 It’s as simple as that!
 
-Creating segments in WebEngage is like building a house of Legos - all you need to do is select the right blocks and place them. After building the structure, if you don’t like the way it has turned out, you can always hit the reset button (at each step) to start afresh.
+Creating segments in Jarvis is like building a house of Legos - all you need to do is select the right blocks and place them. After building the structure, if you don’t like the way it has turned out, you can always hit the reset button (at each step) to start afresh.
 
 **Now let’s deep dive into all the steps of segment creation.**
 
@@ -385,7 +178,7 @@ Click to enlarge
 >         
 > *   Last seen is **present** _(will include users who have visited your app and/or website at least once in their lifetime)_
 >     
-> *   Last seen is **not present** _(will include users who exist in your database but have never interacted with your app and/or website. This means that the users were acquired offline and were added manually through a CSV upload to your WebEngage account.)_
+> *   Last seen is **not present** _(will include users who exist in your database but have never interacted with your app and/or website. This means that the users were acquired offline and were added manually through a CSV upload to your Jarvis account.)_
 >     
 
 ### 
@@ -428,7 +221,7 @@ As shown below, simply select a condition, specify the first-acquisition date or
 >     
 > *   (Contact) Created On date is **present** _(Will include users for whom your database has a first-acquisition date.)_
 >     
-> *   (Contact) Create on date is **not present** _(Will include users who exist in your database were added manually through a CSV upload to your WebEngage account, due to which their first acquisition date is not present.)_
+> *   (Contact) Create on date is **not present** _(Will include users who exist in your database were added manually through a CSV upload to your Jarvis account, due to which their first acquisition date is not present.)_
 >     
 
 ### 
@@ -523,7 +316,7 @@ On the contrary, if we club the user attributes by the OR logic, then it would b
 >     
 > *   Phone (Number)
 >     
-> *   Hashed Phone (Number): _At WebEngage, we extend the option of encrypting all critical user details to avoid any privacy breaches. Hence, using this attribute you can include the encrypted phone numbers to add specific users to your segment._
+> *   Hashed Phone (Number): _At Jarvis, we extend the option of encrypting all critical user details to avoid any privacy breaches. Hence, using this attribute you can include the encrypted phone numbers to add specific users to your segment._
 >     
 > *   Email (Address)
 >     
@@ -532,7 +325,7 @@ On the contrary, if we club the user attributes by the OR logic, then it would b
 > *   Last Seen (as discussed under _Last Seen_, above.)
 >     
 > 
-> _(Please note that custom user attributes vary for each WebEngage account, making it impossible to list here)_
+> _(Please note that custom user attributes vary for each Jarvis account, making it impossible to list here)_
 
 ### 
 
@@ -621,7 +414,7 @@ Since all mobile apps are downloaded through _Google's Playstore or Apple's App 
 
 We have partnered with several leading mobile attribution platforms like **_AppsFlyer, Adjust, Branch_** and **_Tune_** to ensure that you're able to track down the sources through which users discover you.
 
-All you need to do is integrate your mobile apps with any of the aforementioned platforms and connect your WebEngage account with it. In doing so, we will start gleaning acquisition source information for all users that download your app.
+All you need to do is integrate your mobile apps with any of the aforementioned platforms and connect your Jarvis account with it. In doing so, we will start gleaning acquisition source information for all users that download your app.
 
 You can specify the following parameters to segement users (based on the info gleaned through the third-party attribution platform):
 
@@ -853,7 +646,7 @@ A drop-down including all the custom events, system events and campaign events b
 > 
 > Please refer to this section for a list of all the system events included in the dropdowns under both conditions.
 > 
-> _(Please note that custom events vary for each WebEngage account, making it impossible to list here)_
+> _(Please note that custom events vary for each Jarvis account, making it impossible to list here)_
 
 To add multiple events under a condition, click the _Plus_ icon placed next to the second dropdown _(as shown below)_. A maximum of three events can be added under each condition, clubbed by the AND/OR logic.
 
@@ -1000,7 +793,7 @@ Here’s a list of the technical details you can add to the rules of segmentatio
 >     
 > *   API Version
 >     
-> *   SDK Version _(Refers to the WebEngage Mobile SDK version added by you to the platform. All user data is collected through it)_
+> *   SDK Version _(Refers to the Jarvis Mobile SDK version added by you to the platform. All user data is collected through it)_
 >     
 > *   Advertising ID
 >     
@@ -1046,7 +839,7 @@ Step 3: Preview Segment
 
 Click to enlarge
 
-Placed on the right, a real-time preview of the segment you're creating shows a top-level breakup of its users. At WebEngage, we believe it’s essential to see the possibilities offered by each segment you create clearly. Thus, this preview has been designed to help you develop practical in-sized segments, substantially differentiated and can be engaged via a channel.
+Placed on the right, a real-time preview of the segment you're creating shows a top-level breakup of its users. At Jarvis, we believe it’s essential to see the possibilities offered by each segment you create clearly. Thus, this preview has been designed to help you develop practical in-sized segments, substantially differentiated and can be engaged via a channel.
 
 > 📘
 > 

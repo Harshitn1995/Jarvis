@@ -1,253 +1,46 @@
-Jump to Content
+---
+layout: default
+title: Jarvis Docs Basics
+---
 
-User Documentation
+<button onclick="window.history.back()">🔙 Go Back</button>
 
-* * *
+Welcome to **Jarvis's guide** to getting started with **Email Marketing**.
 
-Developer HubKnowledge BaseLog In
+## 📘 Jarvis Docs Menu
 
-User Documentation
+### 🔹 Basics
+- [Users](./users.html)
+- [Events](./core-concepts-events.html)
 
-Developer HubKnowledge BaseLog In
+### 📊 Analytics
+- [Overview](./analytics-overview.html)
+- [Dashboard](./analytics-dashboard.html)
 
-User Documentation
+### 🧩 Segments
+- [What are Segments?](./segments.html)
+- [Create a Segment](./segments-setup.html)
 
-Users
+### 📣 Campaign Manager
+- [In-App](./inapp.md)
+- [SMS](./sms.md)
+- [Push](./push.md)
+- [Web Push](./webpush.md)
+- [WhatsApp](./whatsapp.md)
+- [Journey](./journey.md)
 
-Users
+---
 
-Search
-
-WebEngage Basics
-----------------
-
-*   Preface
-*   Users
-*   Events
-    *   Understanding Events & Event Attributes
-
-Analytics
----------
-
-*   Dashboards
-*   Analyzing Users
-    *   Analyzing User Profiles
-*   Analyzing Events
-*   Paths
-*   RFM Analysis
-*   Funnels
-    *   List of Funnels
-    *   Creating Funnels
-    *   Analyzing Funnels
-    *   Modifying Funnels
-    *   Help Center
-*   Cohorts
-    *   Cohort Analysis: Use-cases
-    *   Analyzing Cohorts
-    *   Help Center
-*   Uninstalls
-*   Live
-
-Segments
---------
-
-*   Getting Started
-*   Live Segments
-    *   Live Segments Hub
-    *   Creating Live Segments
-    *   Analyzing Live Segments
-    *   Modifying Live Segments
-*   Lists
-    *   Lists Hub
-    *   Creating Lists
-    *   Analyzing Lists
-*   Refreshing Lists
-*   Predictive Segments
-*   Help Center
-
-Data Platform
--------------
-
-*   Data Management
-    *   Defining Data Model
-    *   System Attributes
-    *   User Profile Attributes
-    *   Custom Events
-    *   Revenue Mapping
-    *   Personally Identifiable Information (PII)
-    *   Conversion Card Setting
-*   Upload Data
-    *   Upload User Data
-    *   Upload Events Data
-*   Engagement Score
-*   Web Integration
-*   Android Integration
-*   iOS Integration
-*   Rest API
-*   Webhooks
-*   Catalogs and Recommendations
-    *   Collections
-*   Custom Alerts
-
-Campaign Manager
-----------------
-
-*   Key Concepts
-    *   Channels & Channel Reachability
-    *   Campaigns & Its Types
-    *   Preface
-    *   Conversion Tracking
-    *   Control Groups
-    *   Revenue Tracking
-    *   Campaign & Channel Performance Indicators
-    *   Campaign Variations and Multivariate Testing
-    *   Frequency Capping
-    *   DND Hours
-    *   Queueing
-    *   Throttling (Message Rate-Limiting)
-    *   Send Intelligently
-*   Engagement Overview
-*   Push
-    *   Channel Configuration
-    *   List of Campaigns
-    *   Creating Push Campaigns
-    *   Creating Transactional Push Campaigns
-    *   Analyzing Push Campaigns
-    *   Analyzing Push Overview
-    *   Push Layouts: Image & Text Guidelines
-    *   Creating Dynamic Push Experiences Using Key-Value Pairs
-    *   Help Center
-*   SMS
-    *   SSP Integration
-    *   List of Campaigns
-    *   Creating SMS Campaigns
-    *   Creating Transactional SMS Campaigns
-    *   Analyzing SMS Campaigns
-    *   Analyzing SMS Overview
-    *   Help Center
-*   RCS
-    *   RSP Integration
-    *   List of Campaigns
-    *   Creating RCS Campaigns
-    *   Accessing and Understanding RCS Campaigns
-    *   Analyzing RCS Channel Overview
-    *   Analyzing RCS Campaign
-    *   Rich Communication Service Template Creation
-    *   Help Center
-*   Web Push
-    *   Channel Configuration
-    *   List of Campaigns
-    *   Creating Web Push Campaigns
-    *   Analyzing Web Push Campaigns
-    *   Analyzing Web Push Overview
-    *   Web Push Layouts: Image & Text Guidelines
-    *   Help Center
-*   Email
-    *   ESP Integration
-    *   List of Campaigns
-    *   Creating Email Campaigns
-    *   Creating Transactional Email Campaigns
-    *   Using the Drag & Drop Editor
-    *   Analyzing Email Campaigns
-    *   Analyzing Email Overview
-    *   Image & Text Guidelines
-    *   Help Center
-    *   AMP Emails
-    *   AMP Email Use Cases
-    *   Add Brand Logo to Emails
-*   WhatsApp
-    *   WhatsApp Integration
-    *   List of Campaigns
-    *   Creating WhatsApp Campaigns
-    *   Creating Transactional WhatsApp Campaigns
-    *   Accessing and Understanding WhatsApp Campaigns
-    *   Analyzing WhatsApp Campaign
-    *   Analyzing WhatsApp Channel Overview
-    *   Help Center
-*   Facebook
-    *   Facebook Business Integration
-    *   Help Center
-*   Google Ads
-*   TikTok
-*   Journeys
-    *   List of Journeys
-    *   Journey Creation Guide
-    *   Journey Creation: How It Works
-    *   Analyzing a Journey
-    *   Analyzing Journeys' Overview
-*   Relays
-    *   Getting Started
-    *   Catalog Based Relays
-*   Reports
-    *   List of Scheduled Reports
-    *   Schedule Channel Performance Reports
-    *   Understanding Report Stats
-*   Configurations
-    *   DND Hours
-    *   Throttling
-    *   Frequency Capping
-    *   Custom Domain
-    *   Configure Control Groups
-    *   UTM Parameters
-
-Website Personalization
------------------------
-
-*   Web Personalization: In-line Content
-    *   List of Campaigns
-    *   Creating Web In-line Content Campaigns
-    *   Analyzing Inline Web In-line Campaigns
-    *   Analyzing Web In-line Overview
-*   On-site Notifications
-    *   Advanced Targeting
-    *   List of Campaigns
-    *   Creating On-site Notifications
-    *   Analyzing On-site Notifications
-    *   Modifying On-site Notifications
-    *   Notification Settings
-*   On-site Surveys
-    *   Advanced Targeting
-    *   List of Surveys
-    *   Creating Surveys
-    *   Analyzing Responses
-    *   Modifying Surveys
-    *   Survey Settings
-
-App Personalization
--------------------
-
-*   In-app Notifications
-    *   In-app Message Targeting
-    *   List of Campaigns
-    *   Creating In-app Campaigns
-    *   Analyzing In-app Campaigns
-    *   Analyzing In-app Overview
-    *   In-app Layouts: Image & Text Guidelines
-    *   Help Center
-*   App In- Line Content
-    *   Getting Started
-    *   Understanding Properties
-    *   List of Campaigns
-    *   Creating App In-line Campaigns
-    *   Accessing and Understanding App In-line Campaigns
-    *   Analyzing App In-line Campaigns
-    *   Analyzing App In-line Overview
-    *   FAQ
-
-Settings
---------
-
-*   Audit Log
-*   Role-Based Access Control
+## ✉️ Let's Get You Started with Email
 
 Users
 =====
 
-Understanding all the concepts related to users in WebEngage
+Understanding all the concepts related to users in Jarvis
 
 Suggest Edits
 
-The following section has been designed to help you understand the different types of users, user attributes and their applications across your WebEngage dashboard. Let’s start with the basics.
+The following section has been designed to help you understand the different types of users, user attributes and their applications across your Jarvis dashboard. Let’s start with the basics.
 
 Who is a User?
 
@@ -257,12 +50,12 @@ Who is a User?
 > 📘
 > --
 > 
-> At WebEngage, anybody who has interacted with your business at least once is called a _User._  
+> At Jarvis, anybody who has interacted with your business at least once is called a _User._  
 > This definition includes visitors who interact with your mobile app, website, other online platforms and offline avenues.
 
-**This brings us to the question, how does WebEngage detect users?**
+**This brings us to the question, how does Jarvis detect users?**
 
-It’s pretty simple, actually. Once you connect your platforms _(app, website, CRM, server)_ with your WebEngage account, we automatically start detecting and gleaning basic information about your users in real-time.
+It’s pretty simple, actually. Once you connect your platforms _(app, website, CRM, server)_ with your Jarvis account, we automatically start detecting and gleaning basic information about your users in real-time.
 
 All this data gets populated across the following sections of your dashboard:
 
@@ -277,7 +70,7 @@ Unknown and Known Users
 
 Depending on the kind of information shared by a user on your app or website, they are classified into - _Unknown_ or _Known._
 
-You can think of _Unknown Users_ as ‘Anonymous Users’ and _Known Users_ as ‘Identified Users’. Just like you would use details like a user’s _email address, phone number or customer ID_ to identify your users - so does your WebEngage dashboard. These details are called _Unique Identifiers_ in WebEngage and can be custom defined by you when setting up your account.
+You can think of _Unknown Users_ as ‘Anonymous Users’ and _Known Users_ as ‘Identified Users’. Just like you would use details like a user’s _email address, phone number or customer ID_ to identify your users - so does your Jarvis dashboard. These details are called _Unique Identifiers_ in Jarvis and can be custom defined by you when setting up your account.
 
 #### 
 
@@ -303,13 +96,13 @@ User Attributes
 
 The term _User Attribute_ refers to all the details attached to a user which help us understand their channel preferences, technological preferences, personal details, spending patterns and so on - painting a complete picture of who they are.
 
-These details play an important role in understanding user personas - allowing you to create highly targeted and personalized communication strategies. When using your WebEngage account, you will notice that user attributes have been bucketed into the following types:
+These details play an important role in understanding user personas - allowing you to create highly targeted and personalized communication strategies. When using your Jarvis account, you will notice that user attributes have been bucketed into the following types:
 
 ### 
 
 System Attributes
 
-These are minute details that the system or WebEngage automatically gleans for all the users who interact with your app and website. So, generic details like a user’s _gender, date of birth_ and so on are called system attributes.
+These are minute details that the system or Jarvis automatically gleans for all the users who interact with your app and website. So, generic details like a user’s _gender, date of birth_ and so on are called system attributes.
 
 Here's a list of all the system attributes gleaned by us. _(This means you don’t need to worry about tracking all this data!)_
 
@@ -326,7 +119,7 @@ These are minute details that any business, like yours, can custom define for th
 
 > 🚧
 > 
-> How to Define and Pass Custom Attributes to your WebEngage Account
+> How to Define and Pass Custom Attributes to your Jarvis Account
 > 
 > 
 > ------------------------------------------------------------------------
@@ -369,7 +162,7 @@ You can think of attributes like the smaller details related to a person, which 
 **3\. Devices**
 
 Now let’s understand the concept of ‘devices’. Just like you would refer to a mobile phone, tablet  
-or desktop as a device - so does your WebEngage dashboard. Thus, the devices section of a user profile contains details of the devices which have been used to interact with your app or website.
+or desktop as a device - so does your Jarvis dashboard. Thus, the devices section of a user profile contains details of the devices which have been used to interact with your app or website.
 
 Hence, this section has further been divided into the following subsections:
 
@@ -389,7 +182,7 @@ Under each subsection, you will find more details about the devices being used b
 
 In marketing lingo, a channel would typically refer to any channels of communication like _push messaging, in-app messaging, SMS, web pop-ups, web surveys, web push, email_ and so on.
 
-Similarly, even your WebEngage dashboard refers to these as channels.
+Similarly, even your Jarvis dashboard refers to these as channels.
 
 Hence, under this section, you will see a breakdown of all channels of engagement listed in your dashboard against several parameters, such as:
 
@@ -408,7 +201,7 @@ Hence, under this section, you will see a breakdown of all channels of engagemen
 > 
 > -----------------------------
 > 
-> Please refer to _Events_ for a detailed understanding of the concept of Events in WebEngage and its application across your dashboard.
+> Please refer to _Events_ for a detailed understanding of the concept of Events in Jarvis and its application across your dashboard.
 
 Any actions performed by users across your app and website are called events. For example, let’s say that you have an e-commerce app which requires users to perform certain actions, like;
 
@@ -443,7 +236,7 @@ Updated about 2 years ago
 
 So, what's next?
 
-We hope this has warmed you up to all the concepts related to users and their application across your WebEngage dashboard. Let's walk you through how you can analyse users to gain deep insights into their preferences and personas.
+We hope this has warmed you up to all the concepts related to users and their application across your Jarvis dashboard. Let's walk you through how you can analyse users to gain deep insights into their preferences and personas.
 
 *   Analyzing Users
 

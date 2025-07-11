@@ -1,244 +1,37 @@
-Jump to Content
+---
+layout: default
+title: Segmentation's Basics
+---
 
-User Documentation
+<button onclick="window.history.back()">🔙 Go Back</button>
 
-* * *
+Welcome to **Jarvis's guide** to getting started with **Email Marketing**.
 
-Developer HubKnowledge BaseLog In
+## 📘 Jarvis Docs Menu
 
-User Documentation
+### 🔹 Basics
+- [Users](./users.html)
+- [Events](./core-concepts-events.html)
 
-Developer HubKnowledge BaseLog In
+### 📊 Analytics
+- [Overview](./analytics-overview.html)
+- [Dashboard](./analytics-dashboard.html)
 
-User Documentation
+### 🧩 Segments
+- [What are Segments?](./segments.html)
+- [Create a Segment](./segments-setup.html)
 
-Getting Started
+### 📣 Campaign Manager
+- [In-App](./inapp.md)
+- [SMS](./sms.md)
+- [Push](./push.md)
+- [Web Push](./webpush.md)
+- [WhatsApp](./whatsapp.md)
+- [Journey](./journey.md)
 
-Getting Started
+---
 
-Search
-
-WebEngage Basics
-----------------
-
-*   Preface
-*   Users
-*   Events
-    *   Understanding Events & Event Attributes
-
-Analytics
----------
-
-*   Dashboards
-*   Analyzing Users
-    *   Analyzing User Profiles
-*   Analyzing Events
-*   Paths
-*   RFM Analysis
-*   Funnels
-    *   List of Funnels
-    *   Creating Funnels
-    *   Analyzing Funnels
-    *   Modifying Funnels
-    *   Help Center
-*   Cohorts
-    *   Cohort Analysis: Use-cases
-    *   Analyzing Cohorts
-    *   Help Center
-*   Uninstalls
-*   Live
-
-Segments
---------
-
-*   Getting Started
-*   Live Segments
-    *   Live Segments Hub
-    *   Creating Live Segments
-    *   Analyzing Live Segments
-    *   Modifying Live Segments
-*   Lists
-    *   Lists Hub
-    *   Creating Lists
-    *   Analyzing Lists
-*   Refreshing Lists
-*   Predictive Segments
-*   Help Center
-
-Data Platform
--------------
-
-*   Data Management
-    *   Defining Data Model
-    *   System Attributes
-    *   User Profile Attributes
-    *   Custom Events
-    *   Revenue Mapping
-    *   Personally Identifiable Information (PII)
-    *   Conversion Card Setting
-*   Upload Data
-    *   Upload User Data
-    *   Upload Events Data
-*   Engagement Score
-*   Web Integration
-*   Android Integration
-*   iOS Integration
-*   Rest API
-*   Webhooks
-*   Catalogs and Recommendations
-    *   Collections
-*   Custom Alerts
-
-Campaign Manager
-----------------
-
-*   Key Concepts
-    *   Channels & Channel Reachability
-    *   Campaigns & Its Types
-    *   Preface
-    *   Conversion Tracking
-    *   Control Groups
-    *   Revenue Tracking
-    *   Campaign & Channel Performance Indicators
-    *   Campaign Variations and Multivariate Testing
-    *   Frequency Capping
-    *   DND Hours
-    *   Queueing
-    *   Throttling (Message Rate-Limiting)
-    *   Send Intelligently
-*   Engagement Overview
-*   Push
-    *   Channel Configuration
-    *   List of Campaigns
-    *   Creating Push Campaigns
-    *   Creating Transactional Push Campaigns
-    *   Analyzing Push Campaigns
-    *   Analyzing Push Overview
-    *   Push Layouts: Image & Text Guidelines
-    *   Creating Dynamic Push Experiences Using Key-Value Pairs
-    *   Help Center
-*   SMS
-    *   SSP Integration
-    *   List of Campaigns
-    *   Creating SMS Campaigns
-    *   Creating Transactional SMS Campaigns
-    *   Analyzing SMS Campaigns
-    *   Analyzing SMS Overview
-    *   Help Center
-*   RCS
-    *   RSP Integration
-    *   List of Campaigns
-    *   Creating RCS Campaigns
-    *   Accessing and Understanding RCS Campaigns
-    *   Analyzing RCS Channel Overview
-    *   Analyzing RCS Campaign
-    *   Rich Communication Service Template Creation
-    *   Help Center
-*   Web Push
-    *   Channel Configuration
-    *   List of Campaigns
-    *   Creating Web Push Campaigns
-    *   Analyzing Web Push Campaigns
-    *   Analyzing Web Push Overview
-    *   Web Push Layouts: Image & Text Guidelines
-    *   Help Center
-*   Email
-    *   ESP Integration
-    *   List of Campaigns
-    *   Creating Email Campaigns
-    *   Creating Transactional Email Campaigns
-    *   Using the Drag & Drop Editor
-    *   Analyzing Email Campaigns
-    *   Analyzing Email Overview
-    *   Image & Text Guidelines
-    *   Help Center
-    *   AMP Emails
-    *   AMP Email Use Cases
-    *   Add Brand Logo to Emails
-*   WhatsApp
-    *   WhatsApp Integration
-    *   List of Campaigns
-    *   Creating WhatsApp Campaigns
-    *   Creating Transactional WhatsApp Campaigns
-    *   Accessing and Understanding WhatsApp Campaigns
-    *   Analyzing WhatsApp Campaign
-    *   Analyzing WhatsApp Channel Overview
-    *   Help Center
-*   Facebook
-    *   Facebook Business Integration
-    *   Help Center
-*   Google Ads
-*   TikTok
-*   Journeys
-    *   List of Journeys
-    *   Journey Creation Guide
-    *   Journey Creation: How It Works
-    *   Analyzing a Journey
-    *   Analyzing Journeys' Overview
-*   Relays
-    *   Getting Started
-    *   Catalog Based Relays
-*   Reports
-    *   List of Scheduled Reports
-    *   Schedule Channel Performance Reports
-    *   Understanding Report Stats
-*   Configurations
-    *   DND Hours
-    *   Throttling
-    *   Frequency Capping
-    *   Custom Domain
-    *   Configure Control Groups
-    *   UTM Parameters
-
-Website Personalization
------------------------
-
-*   Web Personalization: In-line Content
-    *   List of Campaigns
-    *   Creating Web In-line Content Campaigns
-    *   Analyzing Inline Web In-line Campaigns
-    *   Analyzing Web In-line Overview
-*   On-site Notifications
-    *   Advanced Targeting
-    *   List of Campaigns
-    *   Creating On-site Notifications
-    *   Analyzing On-site Notifications
-    *   Modifying On-site Notifications
-    *   Notification Settings
-*   On-site Surveys
-    *   Advanced Targeting
-    *   List of Surveys
-    *   Creating Surveys
-    *   Analyzing Responses
-    *   Modifying Surveys
-    *   Survey Settings
-
-App Personalization
--------------------
-
-*   In-app Notifications
-    *   In-app Message Targeting
-    *   List of Campaigns
-    *   Creating In-app Campaigns
-    *   Analyzing In-app Campaigns
-    *   Analyzing In-app Overview
-    *   In-app Layouts: Image & Text Guidelines
-    *   Help Center
-*   App In- Line Content
-    *   Getting Started
-    *   Understanding Properties
-    *   List of Campaigns
-    *   Creating App In-line Campaigns
-    *   Accessing and Understanding App In-line Campaigns
-    *   Analyzing App In-line Campaigns
-    *   Analyzing App In-line Overview
-    *   FAQ
-
-Settings
---------
-
-*   Audit Log
-*   Role-Based Access Control
+## ✉️ Let's Get You Started with Email
 
 Getting Started
 ===============
@@ -346,7 +139,7 @@ While the end goal of micro-segmentation is always to engage users with persuasi
 > 
 > ----------------
 > 
-> With WebEngage, you can identify the most reachable channel _(be it Push, In-app, SMS, Web Push, On-site Notification or Email)_ for a particular segment and create personalised campaigns accordingly!
+> With Jarvis, you can identify the most reachable channel _(be it Push, In-app, SMS, Web Push, On-site Notification or Email)_ for a particular segment and create personalised campaigns accordingly!
 
 Benefits of Segmenting your Userbase
 
