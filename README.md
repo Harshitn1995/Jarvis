@@ -31,7 +31,7 @@ Understand *who* your users are with:
 - **User Attributes**
 - **User Profiles**
 
-[Explore Users →](Sms/README.md)
+[Explore Users →](docs/README/users.md)
 
 ---
 
@@ -42,7 +42,7 @@ Track *what* your users do with:
 - **Events**
 - **Event Attributes**
 
-[Explore Events →](https://harshitn1995.github.io/docs/core-concepts-events.html)
+[Explore Events →](docs/README/core-concepts-events.md)
 
 ---
 
@@ -77,8 +77,8 @@ Explore:
 
 Use segmentation to personalize engagement.
 
-- [What are Segments?](https://harshitn1995.github.io/docs/segments.html)
-- [Create a Segment](https://harshitn1995.github.io/docs/segments-setup.html)
+- [What are Segments?](docs/README/segments.md)
+- [Create a Segment](docs/README/creating-segments.md)
 
 ---
 
@@ -105,8 +105,8 @@ We're here for you!  📧 Contact: [support@xyz.com](mailto:support@xyz.com)
 
 ## 🎓 Next Steps
 
-- Start with [Users](https://harshitn1995.github.io/docs/users.html)
-- Then dive into [Events](https://harshitn1995.github.io/docs/core-concepts-events.html)
+- Start with [Users](docs/README/users.md)
+- Then dive into [Events](docs/README/core-concepts-events.md)
 
 ---
 
