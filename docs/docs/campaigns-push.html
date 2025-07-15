@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jarvis Push Doc</title>
+  <style>
+    :root {
+      --primary: #3498db;
+      --primary-dark: #2980b9;
+      --sidebar-bg: #2c3e50;
+      --sidebar-link-bg: #34495e;
+      --hover-bg: #1abc9c;
+      --text-color: #333;
+      --highlight-bg: #f0faff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
+      color: var(--text-color);
+      display: flex;
+      min-height: 100vh;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+
+    .sidebar {
+      width: 300px;
+      background-color: var(--sidebar-bg);
+      color: white;
+      padding: 30px 20px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 1.6em;
+      color: white;
+      margin-bottom: 30px;
+    }
+
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+
+    .sidebar-section h3 {
+      font-size: 1.1em;
+      margin-bottom: 12px;
+      color: #ecf0f1;
+    }
+
+    .sidebar-section ul {
+      list-style: none;
+    }
+
+    .sidebar-section li {
+      margin-bottom: 12px;
+    }
+
+    .sidebar-section a {
+      display: block;
+      padding: 10px 15px;
+      border-radius: 6px;
+      background-color: var(--sidebar-link-bg);
+      transition: all 0.3s ease;
+    }
+
+    .sidebar-section a:hover {
+      background-color: var(--hover-bg);
+      color: white;
+    }
+
+    .main-content {
+      margin-left: 300px;
+      padding: 40px 50px;
+      flex: 1;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #2c3e50;
+    }
+
+    .interactive-section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 25px 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .interactive-section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .highlight-box h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      border-left: 5px solid var(--primary);
+      padding-left: 12px;
+    }
+
+    .highlight-box h3 {
+      font-size: 1.3em;
+      margin-bottom: 15px;
+      color: var(--primary-dark);
+    }
+
+    .highlight-box p {
+      font-size: 1em;
+      line-height: 1.7;
+      margin: 10px 0;
+    }
+
+    .highlight-box a {
+      font-weight: 600;
+    }
+
+    .next-steps {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .next-btn {
+      background-color: var(--primary);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .next-btn:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        display: none;
+      }
+
+      .main-content {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+        <h2>📘 Jarvis Docs</h2>
+        <div class="sidebar-section">
+            <h3>🔹 Basics</h3>
+            <ul>
+                <li><a href="./users.html">Users</a></li>
+                <li><a href="./core-concepts-events.html">Events</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>📊 Analytics</h3>
+            <ul>
+                <li><a href="./analytics-overview.html">Overview</a></li>
+                <li><a href="./analytics-dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>🧩 Segments</h3>
+            <ul>
+                <li><a href="./segments.html">What are Segments?</a></li>
+                <li><a href="./creating-segments.html">Create a Segment</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>📣 Campaign Manager</h3>
+            <ul>
+                <li><a href="./campaigns-inapp.html">In-App</a></li>
+                <li><a href="./campaigns-sms.html">SMS</a></li>
+                <li><a href="./campaigns-push.html">Push</a></li>
+                <li><a href="./campaigns-email.html">Email</a></li>
+                <li><a href="./campaigns-webpush.html">Web Push</a></li>
+                <li><a href="./campaigns-whatsapp.html">WhatsApp</a></li>
+                <li><a href="./campaigns-journeys.html">Journey</a></li>
+            </ul>
+        </div>
+    </div>
+
+  <div class="main-content">
+    <div class="interactive-section">
+      <div class="highlight-box">
+        <h2>📲 PUSH</h2>
+        <p>Welcome to Jarvis's guide to getting started with Push Marketing</p>
+      </div>
+    </div>
+
+    <div class="interactive-section">
+      <div class="highlight-box">
+        <h3>Let's Get You Started</h3>
+        <p>Create delightful mobile experiences with push notifications that drive engagement and conversions. Backed by
+          real-time insights and powerful features, you are bound to deliver high-impact experiences each time!</p>
+
+        <p><strong>Step 1:</strong> Complete the <a href="./pushconfiguration">one-time configuration to enable Push
+            messaging</a> in your dashboard.</p>
+
+        <p><strong>Step 2:</strong> <a href="segments.html">Segment your users by their preferences or behavior</a> to
+          engage them with contextual <em>Push Notifications.</em></p>
+
+        <p><strong>Step 3:</strong> <a href="creating-push-campaigns.html">Create a <em>Push campaign</em></a> through
+          the <em>Channel</em> or a <em>Journey</em>.</p>
+
+        <p><strong>Step 4:</strong> <a href="analyzing-push-campaigns.html">Analyze the <em>Push campaign</em></a>
+          against various <a href="channel-campaign-performance-metrics.html#section-push">performance indicators</a> to
+          understand its impact on user engagement, conversions, and revenue.</p>
+
+        <p><strong>Step 5:</strong> <a href="analyzing-push-overview.html">Analyze the overall impact of <em>Push as a
+              Channel</em></a> to understand its effectiveness in helping you meet your business goals.</p>
+
+        <p><strong>Step 6:</strong> Have these insights emailed periodically to your team by setting up scheduled
+          reports for a <a href="analyzing-push-campaigns.html#section-schedule-a-report">Push campaign</a> and <a
+            href="schedule-reports.html#section-how-to-schedule-channel-reports">all campaigns sent through the
+            channel</a>.</p>
+
+        <p>And, if you're new to the world of marketing automation, or find yourself lost in a world of technical
+          jargon, then head over to <a href="user-engagement.html">Key Concepts of User Engagement</a> for quick
+          answers!</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

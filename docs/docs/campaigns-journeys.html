@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jarvis Journey Doc</title>
+    <style>
+        :root {
+            --primary: #3498db;
+            --primary-dark: #2980b9;
+            --sidebar-bg: #2c3e50;
+            --sidebar-link-bg: #34495e;
+            --hover-bg: #1abc9c;
+            --text-color: #333;
+            --highlight-bg: #f0faff;
+            --accent-light: #eaf6ff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f7fa;
+            color: var(--text-color);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+
+        .sidebar {
+            width: 300px;
+            background-color: var(--sidebar-bg);
+            color: white;
+            padding: 30px 20px;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar h2 {
+            font-size: 1.6em;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-section h3 {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            color: #ecf0f1;
+        }
+
+        .sidebar-section ul {
+            list-style: none;
+        }
+
+        .sidebar-section li {
+            margin-bottom: 12px;
+        }
+
+        .sidebar-section a {
+            display: block;
+            padding: 10px 15px;
+            border-radius: 6px;
+            background-color: var(--sidebar-link-bg);
+            transition: all 0.3s ease;
+        }
+
+        .sidebar-section a:hover {
+            background-color: var(--hover-bg);
+            color: white;
+        }
+
+        .main-content {
+            margin-left: 300px;
+            padding: 40px 50px;
+            flex: 1;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        .interactive-section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .interactive-section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .interactive-section.alt {
+            border-left: none;
+            border-top: 6px solid var(--primary-dark);
+            background-color: var(--accent-light);
+        }
+
+        .interactive-section.callout {
+            background-color: #fffdf5;
+            border: 2px dashed var(--primary);
+        }
+
+        .interactive-section ul {
+            padding-left: 16px;
+            margin-left: 0;
+            list-style-position: inside;
+        }
+
+        .interactive-section ul ul {
+            padding-left: 14px;
+        }
+
+        .interactive-section li {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .highlight-box h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-left: 5px solid var(--primary);
+            padding-left: 12px;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.3em;
+            margin-top: 15px;
+            color: var(--primary-dark);
+        }
+
+        .highlight-box p {
+            font-size: 1em;
+            line-height: 1.7;
+            margin: 10px 0;
+        }
+
+        .highlight-box a {
+            font-weight: 600;
+        }
+
+        .next-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px 0;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .next-btn:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>📘 Jarvis Docs</h2>
+        <div class="sidebar-section">
+            <h3>🔹 Basics</h3>
+            <ul>
+                <li><a href="./users.html">Users</a></li>
+                <li><a href="./core-concepts-events.html">Events</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>📊 Analytics</h3>
+            <ul>
+                <li><a href="./analytics-overview.html">Overview</a></li>
+                <li><a href="./analytics-dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>🧩 Segments</h3>
+            <ul>
+                <li><a href="./segments.html">What are Segments?</a></li>
+                <li><a href="./creating-segments.html">Create a Segment</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>📣 Campaign Manager</h3>
+            <ul>
+                <li><a href="./campaigns-inapp.html">In-App</a></li>
+                <li><a href="./campaigns-sms.html">SMS</a></li>
+                <li><a href="./campaigns-push.html">Push</a></li>
+                <li><a href="./campaigns-email.html">Email</a></li>
+                <li><a href="./campaigns-webpush.html">Web Push</a></li>
+                <li><a href="./campaigns-whatsapp.html">WhatsApp</a></li>
+                <li><a href="./campaigns-journeys.html">Journey</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="interactive-section">
+            <div class="highlight-box">
+                <h2>👣 Journeys</h2>
+                <p>Welcome to Jarvis's guide to getting started Marketing through Journey</p>
+            </div>
+        </div>
+
+        <div class="interactive-section alt">
+            <div class="highlight-box">
+                <p><strong> <em>Customer centricity. Targeted communication. Contextual experiences.
+                            Customer delight. Personalized engagement...</em> </strong> As
+                    marketers, we often come across these buzzwords in meetings, while surfing the
+                    internet or checking up on our favorite marketing gurus. </p>
+                <p>While you may come across these terms in various contexts, they all boil down to
+                    the same thesis: <em>designing your engagement strategy around each user's
+                        behavior and preferences.</em></p>
+                <p>Building upon this premise, we created <strong>Journeys</strong> - a flexible,
+                    logic-based tool that unifies all your channels of communication, helping you
+                    deliver incredible experiences throughout a user's lifecycle. </p>
+            </div>
+        </div>
+
+        <div class="interactive-section">
+            <div class="highlight-box">
+                <h3>What is a Journey?</h3>
+                <p><em>A Journey is a wholesome experience that guides each user through the
+                        various <a target="_self" href="user-engagement.html">stages of their
+                            lifecycle</a> by engaging them in the right moment, with the most
+                        relevant context, through their preferred channel.</em></p>
+                <div class="interactive-section callout">
+                    <p><strong>How?</strong> <em>Let us explain.</em></p>
+                    <p>When a user interacts with your business through your app, website, or offline,
+                        they perform various actions as they navigate their way to achieving a specific
+                        goal. Depending on your business, these goals vary and could be anything like:
+                    </p>
+                    <ul>
+                        <li>Placing an order</li>
+                        <li>Purchasing a subscription</li>
+                        <li>Signing up to avail your services/consume content</li>
+                        <li>Learning a skill</li>
+                        <li>Managing financial investments</li>
+                        <li>Booking a travel package/ flights tickets/ hotel stays</li>
+                        <li>Booking movie/ concert tickets </li>
+                        <li>Purchasing fashion accessories/ gadgets/ home decor and so on.</li>
+                    </ul>
+                    <p>In their journey to achieving these goals, each user experiences <a target="_self"
+                            href="user-engagement.html">several stages</a>. However,
+                        factors like a user's <em>device preferences, channel preferences, expectations
+                            from your brand, spending habits, location, educational
+                            qualifications...</em> invariably cause each user to experience your brand
+                        differently. </p>
+                    <p>Creating consistent brand experiences across channels and platforms is one of the
+                        most prominent challenges marketers, like you and me, face today. <strong>This
+                            is why we created <em>Journeys</em>.</strong> </p>
+                </div>
+
+                <div class="interactive-section callout">
+                    <p><strong>Each <em>Journey experience</em> can be designed using an
+                            <em>If-this-happens-then-do-that</em> logic, helping you:</strong></p>
+                    <ul>
+                        <li>
+                            <p>Identify the moments in which engaging users with
+                                informational/promotional content can help them proceed to the next
+                                stage.</p>
+                        </li>
+                        <li>
+                            <p>Spread out the experience over a period of time (because we don't want to
+                                be too pushy, right?)</p>
+                        </li>
+                        <li>
+                            <p>Contextually personalize each user's experience to their behavior,
+                                preferences, location and real-time interactions with your app, website,
+                                and campaigns.</p>
+                        </li>
+                    </ul>
+                    <p>Let's go over a use-case to show you how it works:</p>
+                </div>
+
+                <div class="interactive-section callout">
+                    <h2>👍 Creating a Journey to Motivate Users to Complete Their Purchase (E-commerce)</h2>
+                    <p>Let's take the example of an e-commerce platform (app + web) that exclusively
+                        deals in fashion wear and accessories. </p>
+                    <p>They recently launched multiple holiday season offers on their platforms in a
+                        bid to drive sales and it worked brilliantly! Within a week, their
+                        conversions were up by 2x. </p>
+                    <p>But, there was also a problem.</p>
+                    <p>Stats indicated that a high share of users added products to their cart but
+                        failed to go through with the purchase. This is behavior is commonly
+                        referred to as 'cart abandonment' and can easily be curbed with an effective
+                        engagement strategy. </p>
+                    <p>And this is exactly what marketers of the platform decided to do! </p>
+                    <p><strong>Here's how they planned the <em>Journey experience</em>:</strong>
+                    </p>
+                    <p><strong>Problem Statement:</strong> Cart Abandonment</p>
+                    <p><strong>End Goal:</strong> Purchase</p>
+                    <p><strong>Target Audience:</strong> All users who add products to cart but
+                        don't purchase</p>
+                    <p><strong>Plan:</strong> Offer users an additional 10% off on their entire
+                        purchase and a cashback too, if necessary. </p>
+                    <p><strong>Strategy:</strong> Specifically engage non-purchasing users with a
+                        series of messages, spread out over 2 days. </p>
+                    <ul>
+                        <li>
+                            <em>How?</em> - Observe the purchase behavior of all users who add
+                            products to cart, for a day.
+                            <ul>
+                                <li>
+                                    Then engage all users who haven't made a purchase with a
+                                    personalized <em>Push Notification</em> offering 10% off!
+
+                                </li>
+                                <li>
+                                    We'll observe the purchase behavior of all users who received
+                                    the discount offer for a day and nudge non-purchasers
+                                    through the same offer, but via <em>Email.</em>
+                                </li>
+                                <li>
+                                    Then, we'll wait for another day to see if these users make a
+                                    purchase. If not, then we'll make one last attempt at
+                                    motivating them with 10% off + cashback and cease
+                                    communication.
+                                </li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>
+                            <em>Where?</em> - <em>Push Notifications</em> and <em>Email.</em>
+                        </li>
+                    </ul>
+                    <p>And just within 2 days of launch, the <em>Cart Abandonment Journey</em> achieved
+                        a 3x uplift in conversions! </p>
+                    <p><em>Sounds exciting? Let's show you how you can leverage Journeys to engage,
+                            convert and retain your users, better.</em> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="interactive-section ">
+            <div class="highlight-box">
+                <h3>Planning a Journey Experience</h3>
+                <p>Here's a framework to help you build &amp; optimize your lifecycle engagement
+                    strategy, as per your business goals. </p>
+                <h3>Step 1: Identify the
+                    Problem Statement
+                </h3>
+                <p><em>Ask yourself, what do you seek to solve with the Journey experience?</em></p>
+                <p><strong>1. Are you trying to keep users informed (bridge a communication
+                        gap)?</strong> This could be anything like:</p>
+                <ul>
+                    <li>Helping users track the status of their order.</li>
+                    <li>Helping users track returns on their investment.</li>
+                    <li>Engaging users with updates on their interest categories. </li>
+                </ul>
+                <p><strong>2. Are you trying to get users to act (convert/move to the next
+                        stage)?</strong> This could be anything like:</p>
+                <ul>
+                    <li>Signing up to create an account.</li>
+                    <li>Starting a free trial.</li>
+                    <li>Purchasing a subscription/ product/ service/ gaming credits/ membership
+                        plan.</li>
+                    <li>Investing in a portfolio.</li>
+                    <li>Referring more users.</li>
+                    <li>Adding product/service reviews/ app store rating.</li>
+                    <li>Sharing on social media.</li>
+                    <li>Booking a flight/ hotel/ holiday package/ travel experience.</li>
+                </ul>
+                <p><strong>3. Are you trying to drive platform engagement?</strong> This could be
+                    anything like:</p>
+                <ul>
+                    <li>Consuming content (streaming shows, listening to music).</li>
+                    <li>Attending live classes, seminars / completing an on-going course.</li>
+                    <li>Exploring new features/ promoting products (new collection, product launch,
+                        seasonal offers, new courses).</li>
+                    <li>Playing a game/quiz.</li>
+                </ul>
+                <p><strong>4. Are you trying to retain users?</strong> This could be anything like:
+                </p>
+                <ul>
+                    <li>Reminding users to renew an on-going subscription/ investment/ policy.</li>
+                    <li>Periodically engaging users with related content/ product recommendations
+                        based on their purchase history.</li>
+                    <li>Wishing users on special occasions like their Birthday/ Wedding Anniversary.
+                    </li>
+                </ul>
+                <h3>Step 2: Identify the
+                    End Goal
+                </h3>
+                <p><em>Ask yourself, why do you want to build the Journey experience? What returns
+                        will it generate?</em></p>
+                <ul>
+                    <li>Will it help you enhance your brand's cross-channel experience?</li>
+                    <li>Will it help you drive platform revenue?</li>
+                    <li>Will it help you meet your conversion goals?</li>
+                    <li>Will it help you drive platform engagement?</li>
+                    <li>Will it help you drive user retention?</li>
+                    <li>Will it help you build a seamless O2O experience?</li>
+                </ul>
+                <h3>Step 3: Identify the Target Audience
+                </h3>
+                <p><em>Ask yourself, who is at the root of the challenge you're facing?</em></p>
+                <ul>
+                    <li>Is it new/ existing users?</li>
+                    <li>Is it inactive/ active users?</li>
+                    <li>Is it active users who haven't converted yet? (cart abandoners/ search
+                        abandoners/ users who browse and leave)</li>
+                    <li>Is it churned users?</li>
+                    <li>Is it brand loyalists?</li>
+                    <li>Is it subscribers/ premium members?</li>
+                    <li>Is it users located in a specific country/ region?</li>
+                    <li>Is it users who have specific technological preferences? (Mobile/ desktop/
+                        iOS/ Android)</li>
+                </ul>
+                <h3>Step 4: Make a Plan
+                </h3>
+                <p><em>Ask yourself, when is the right time to introduce the fix?</em></p>
+                <ul>
+                    <li>When users perform a specific action OR sometime after their interaction?
+                    </li>
+                    <li>When users enter/exit a geofence?</li>
+                    <li>When users update or change their preferences?</li>
+                    <li>When users don't perform a specific action?</li>
+                </ul>
+                <h3>
+                    Step 5: Build the Strategy
+                </h3>
+                <p>We'll combine answers to the statements from <em>Step 1</em> to <em>Step 4</em>
+                    to build a viable engagement strategy on the <em>Canvas.</em> We've broken down
+                    <em>Journey experience</em> strategy into two parts:
+                </p>
+                <p><strong>Part 1: How do you plan on engaging your users?</strong></p>
+                <p>Dig into the stats of your previous campaigns, cohorts, funnels and other CRM
+                    data to identify the most viable tone and method to initiate a conversation with
+                    your users (and keep it going over a long period!) Once you have the insights,
+                    ask yourself: </p>
+                <ul>
+                    <li>Will you appeal to the user's emotions?</li>
+                    <li>Will you incentivize the user's actions by offering a discount?</li>
+                    <li>Will you reinforce the value proposition of your brand by showcasing how it
+                        has benefited other users?</li>
+                    <li>Will you engage users in the context of their behavioral history and
+                        preferences to achieve your goals?</li>
+                </ul>
+                <p><strong>Part 2: Where do you plan to engage your users?</strong></p>
+                <p>Identify the most viable channels of engagement that will help you meet your
+                    goals. When doing so, ask yourself:</p>
+                <ul>
+                    <li>Does the user journey span across various platforms (app, web, offline
+                        store)? </li>
+                    <li>Which channels do my users prefer to connect with my brand?
+                        <ul>
+                            <li>This could include any or a combination of <em><a target="_self"
+                                        href="./campaigns-push.html">Push
+                                        Notifications</a>, <a target="_self" href="./campaigns-inapp.html">In-app
+                                        Messages</a>, <a target="_self" href="./campaigns-sms.html">SMS</a>, <a
+                                        target="_self" href="./campaigns-webpush.html">Web Push
+                                        Notifications</a>, <a target="_self" href="./campaigns-whatsapp.html">Whatsapp
+                                        Messages</a>,<a target="_self" href="./campaigns-email.html">Emails</a>
+                                    &amp;
+                                    WhatsApp Messages.</em>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3>
+                    Step 6: Identify Prerequisites to Execute Strategy
+                </h3>
+                <p>Once you have your strategy in place, create a checklist to identify all the data
+                    points, creatives/content, and tech support, you need to execute it.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jarvis Docs Basics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --primary: #3498db;
+            --primary-dark: #2980b9;
+            --sidebar-bg: #2c3e50;
+            --sidebar-link-bg: #34495e;
+            --hover-bg: #1abc9c;
+            --text-color: #333;
+            --highlight-bg: #f0faff;
+            --accent-light: #eaf6ff;
+            --warning-bg: #fff3cd;
+            --warning-border: #ffc107;
+            --warning-text: #856404;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f7fa;
+            color: var(--text-color);
+            display: flex;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+
+        .sidebar {
+            width: 300px;
+            background-color: var(--sidebar-bg);
+            color: white;
+            padding: 30px 20px;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar h2 {
+            font-size: 1.6em;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-section h3 {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            color: #ecf0f1;
+        }
+
+        .sidebar-section ul {
+            list-style: none;
+        }
+
+        .sidebar-section li {
+            margin-bottom: 12px;
+        }
+
+        .sidebar-section a {
+            display: block;
+            padding: 10px 15px;
+            border-radius: 6px;
+            background-color: var(--sidebar-link-bg);
+            transition: all 0.3s ease;
+        }
+
+        .sidebar-section a:hover {
+            background-color: var(--hover-bg);
+            color: white;
+        }
+
+        .main-content {
+            margin-left: 300px;
+            padding: 40px 50px;
+            flex: 1;
+        }
+
+        .main-content h1 {
+            margin-bottom: 25px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        .interactive-section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .interactive-section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .interactive-section.alt {
+            border-top: 6px solid var(--primary-dark);
+            background-color: var(--accent-light);
+        }
+
+        .interactive-section.callout {
+            background-color: #fffdf5;
+            border: 2px dashed var(--primary);
+        }
+
+        .interactive-section ul {
+            padding-left: 20px;
+            margin: 10px 0 20px;
+        }
+
+        .interactive-section ul ul {
+            padding-left: 18px;
+        }
+
+        .interactive-section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-left: 5px solid var(--primary);
+            padding-left: 12px;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.3em;
+            margin-top: 15px;
+            color: var(--primary-dark);
+        }
+
+        .highlight-box p {
+            font-size: 1em;
+            line-height: 1.7;
+            margin: 10px 0;
+        }
+
+        .highlight-box a {
+            font-weight: 600;
+        }
+
+        .warning-box {
+            background-color: var(--warning-bg);
+            border-left: 4px solid var(--warning-border);
+            padding: 20px 25px;
+            margin: 25px 0;
+            border-radius: 6px;
+            color: var(--warning-text);
+        }
+
+        .warning-box h2 {
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .warning-box ul {
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+
+        .warning-box li {
+            margin-bottom: 8px;
+        }
+
+        .warning-box p {
+            margin: 10px 0;
+        }
+
+        .channel-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 10px 0;
+        }
+
+        .channel-item {
+            background-color: var(--accent-light);
+            padding: 10px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .channel-item:hover {
+            background-color: var(--primary-dark);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .concept-card {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .concept-card:hover {
+            transform: translateX(6px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+        }
+
+        .concept-icon {
+            font-size: 24px;
+            margin-right: 15px;
+            color: var(--primary);
+        }
+
+        .next-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px 0;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .next-btn:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        .animated-text {
+            position: relative;
+            display: inline-block;
+        }
+
+        .animated-text::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        .animated-text:hover::after {
+            width: 100%;
+        }
+
+        .text-changer {
+            color: #e74c3c;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 6px;
+            pointer-events: none;
+        }
+
+        .text-changer:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: white;
+            padding: 4px 8px;
+            font-size: 12px;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>📘 Jarvis Docs</h2>
+        <div class="sidebar-section">
+            <h3>🔹 Basics</h3>
+            <ul>
+                <li><a href="./users.html">Users</a></li>
+                <li><a href="./core-concepts-events.html">Events</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>📊 Analytics</h3>
+            <ul>
+                <li><a href="./analytics-overview.html">Overview</a></li>
+                <li><a href="./analytics-dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>🧩 Segments</h3>
+            <ul>
+                <li><a href="./segments.html">What are Segments?</a></li>
+                <li><a href="./creating-segments.html">Create a Segment</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>📣 Campaign Manager</h3>
+            <ul>
+                <li><a href="./campaigns-inapp.html">In-App</a></li>
+                <li><a href="./campaigns-sms.html">SMS</a></li>
+                <li><a href="./campaigns-push.html">Push</a></li>
+                <li><a href="./campaigns-email.html">Email</a></li>
+                <li><a href="./campaigns-webpush.html">Web Push</a></li>
+                <li><a href="./campaigns-whatsapp.html">WhatsApp</a></li>
+                <li><a href="./campaigns-journeys.html">Journey</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>Welcome to <strong>Jarvis's guide</strong> to getting started with <strong>Live Segment</strong>.</h1>
+
+        <div class="interactive-section highlight-box">
+            <div class="interactive-section callout">
+                <h2>✉️ Creating Live Segments</h2>
+                <p><strong>🚧 Must Read:</strong> Please ensure that you have a robust understanding of <em>Users and
+                        Events</em> before proceeding, as these are the building blocks of Segments in your dashboard.
+                </p>
+                <p>Click the <strong>➕ Plus</strong> icon at the top left of the <em>List of Segments</em> to begin.</p>
+            </div>
+            <div class="warning-box">
+                <h4>👍 Use-case</h4>
+                <p>Let’s say you want to engage all users in Mumbai, India who added products
+                    to their cart but haven't purchased in 7 days. Let’s walk through how to set that up.</p>
+            </div>
+        </div>
+
+        <div class="interactive-section highlight-box">
+            <h3>🧱 Segment Building Philosophy</h3>
+            <p>Think of segments like Lego structures—just choose the right blocks (criteria) and snap them together.
+                Don’t like the structure? Just reset and rebuild.</p>
+        </div>
+
+        <div class="interactive-section">
+            <div class="highlight-box">
+                <h2>🔤 Step 1: Name Your Segment</h2>
+                <p>Give your segment a unique name to reflect its purpose. You can always rename it later.</p>
+            </div>
+
+            <div class="highlight-box">
+                <h2>📐 Step 2: Define the Rules of Segmentation</h2>
+                <p>Rules are divided into 3 major categories:</p>
+                <ul>
+                    <li><strong>User</strong> - Attributes like location, acquisition source</li>
+                    <li><strong>Behavioral</strong> - Actions taken (or not taken)</li>
+                    <li><strong>Technology</strong> - OS, browser, and device data</li>
+                </ul>
+                <p>A live preview on the right updates in real-time.</p>
+            </div>
+        </div>
+
+        <div class="interactive-section callout">
+            <h2>🚀 What’s Next?</h2>
+            <p>Explore the detailed breakdown of User, Behavioral, and Technology conditions in the documentation that
+                follows. You’ll learn to:</p>
+            <ul>
+                <li>Target users based on recency, frequency, and channel reachability</li>
+                <li>Leverage events with attribute filters for advanced behavioral logic</li>
+                <li>Segment by OS, device, browser for platform-native engagement</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
