@@ -25,7 +25,7 @@ Avoid bulk emails. Instead, engage users with **tailored emails at the right mom
 
 **Step 1:** [Integrate your Jarvis account with an ESP](https://docs.Jarvis.com/docs/email) (Email Service Provider)  
 **Step 2:** [Segment your users by behavior](segments.html) to send relevant messages  
-**Step 3:** [Create an Email campaign](creating-email-campaigns.html) via Channel or Journey  
+**Step 3:** [Create an Email campaign](creating-email-campaigns.md) via Channel or Journey  
 **Step 4:** [Analyze Email performance](analyzing-web-push-campaigns.html) using engagement metrics  
 **Step 5:** [Evaluate the impact of Email as a Channel](analyzing-web-push-overview.html)
 

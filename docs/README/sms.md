@@ -29,7 +29,7 @@ Backed by real-time insights and intuitive features, you’re bound to deliver *
 
 **Step 1:** [Integrate your Jarvis account with an SSP (SMS Service Provider)](./smsconfiguration)<br>
 **Step 2:** [Segment your users](segments.html) based on preferences or behavior to send **contextual messages**<br>
-**Step 3:** [Create an SMS campaign](creating-sms-campaigns.html) Through either the **Channel** module or inside a **Journey**<br>
+**Step 3:** [Create an SMS campaign](creating-sms-campaigns.md) Through either the **Channel** module or inside a **Journey**<br>
 **Step 4:** [Analyze SMS campaign performance](analyzing-sms-campaigns.html) Track engagement, conversions, and revenue via: [Performance Indicators](channel-campaign-performance-metrics.html#section-sms)<br>
 **Step 5:** [Understand overall impact of SMS as a Channel](analyzing-sms-overview.html) Use macro-level insights to assess SMS contribution to your **business goals**<br>
 **Step 6:**  📩 Set up scheduled reports:

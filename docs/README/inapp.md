@@ -29,7 +29,7 @@ Backed by real-time user insights and powerful features, you're ready to deliver
 
 1. **Enable** _In-App_ in your dashboard and tag your app’s pages as **Screens** to identify where messages should appear  
 2. [Segment your users](segments.html) based on behavior to trigger contextual messages  
-3. [Create an In-App Campaign](creating-in-app-campaigns.html) via the Channel or Journey modules  
+3. [Create an In-App Campaign](creating-in-app-campaigns.md) via the Channel or Journey modules  
 4. [Analyze In-App performance](analyzing-in-app-campaigns.html) using [engagement metrics](channel-campaign-performance-metrics.html)  
 5. [Review the overall impact of In-App as a Channel](analyzing-in-app-overview.html) on user behavior and business goals  
 6. Set up [scheduled reports](analyzing-in-app-campaigns.html#section-schedule-a-report) for individual campaigns and [overall performance](schedule-reports.html#section-how-to-schedule-channel-reports)

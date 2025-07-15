@@ -29,7 +29,7 @@ Backed by user insights and powerful features, you are bound to create **high-im
 
 **Step 1:**[Configure Web Push opt-in](./web-push-configuration) for your website.<br>
 **Step 2:**[Segment your users](segments.html) based on their preferences and behavior to send **contextual messages**<br>
-**Step 3:**[Create a Web Push Campaign](creating-web-push-campaigns.html) Through either the **Channel** module or inside a **Journey**<br>
+**Step 3:**[Create a Web Push Campaign](creating-web-push-campaigns.md) Through either the **Channel** module or inside a **Journey**<br>
 **Step 4:**[Analyze Web Push campaign performance](analyzing-web-push-campaigns.html) Track engagement, conversions, and revenue via: [Performance Indicators](channel-campaign-performance-metrics.html#section-web-push)<br>
 **Step 5:**[Understand overall impact of Web Push as a Channel](analyzing-web-push-overview.html) Use macro-level insights to assess Web Push’s contribution to your **business goals**<br>
 **Step 6:** 📩 Set up scheduled reports:

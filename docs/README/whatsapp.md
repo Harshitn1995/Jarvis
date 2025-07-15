@@ -44,7 +44,7 @@ Here’s why WhatsApp should be a core part of your engagement strategy:
 
 **Step 1**: [Integrate with a WhatsApp Service Provider](./whatsapp-configuration) and upload whitelisted templates.<br>
 **Step 2**: [Segment opted-in users](segments.html) based on behavior and engagement patterns.<br>
-**Step 3**: [Create a WhatsApp campaign](creating-whatsapp-campaigns.html) Launch through the **Channel** or the **Journey** module.<br>
+**Step 3**: [Create a WhatsApp campaign](creating-whatsapp-campaigns.md) Launch through the **Channel** or the **Journey** module.<br>
 **Step 4**: [Analyze performance](analyzing-whatsapp-campaigns.html) Use relevant [metrics](channel-campaign-performance-metrics.html#section-whatsapp) to track delivery, response rates, and conversions.<br>
 **Step 5**: [Review WhatsApp's overall impact](analyzing-web-push-overview.html) Understand its contribution to **business objectives** and ROI.<br>
 **Step 6**: 📩 Set up [scheduled reports](analyzing-whatsapp-campaigns.html#section-schedule-a-report) to send insights to your team at regular intervals.<br>
