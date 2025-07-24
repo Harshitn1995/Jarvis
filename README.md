@@ -31,7 +31,7 @@ Understand *who* your users are with:
 - **User Attributes**
 - **User Profiles**
 
-[Explore Users →](docs/README/users.md)
+[Explore Users →](README/users.md)
 
 ---
 
@@ -42,7 +42,7 @@ Track *what* your users do with:
 - **Events**
 - **Event Attributes**
 
-[Explore Events →](docs/README/core-concepts-events.md)
+[Explore Events →](README/core-concepts-events.md)
 
 ---
 
@@ -77,8 +77,8 @@ Explore:
 
 Use segmentation to personalize engagement.
 
-- [What are Segments?](docs/README/segments.md)
-- [Create a Segment](docs/README/creating-segments.md)
+- [What are Segments?](README/segments.md)
+- [Create a Segment](README/creating-segments.md)
 
 ---
 
@@ -86,13 +86,13 @@ Use segmentation to personalize engagement.
 
 Launch and manage campaigns across all channels:
 
-- [✉️ Email](docs/README/email.md)
-- [📲 In-App](docs/README/inapp.md)
-- [💬 SMS](docs/README/sms.md)
-- [📤 Push](docs/README/push.md)
-- [🔔 Web Push](docs/README/webpush.md)
-- [🟢 WhatsApp](docs/README/whatsapp.md)
-- [🧩 Journeys](docs/README/journey.md)
+- [✉️ Email](README/email.md)
+- [📲 In-App](README/inapp.md)
+- [💬 SMS](README/sms.md)
+- [📤 Push](README/push.md)
+- [🔔 Web Push](README/webpush.md)
+- [🟢 WhatsApp](README/whatsapp.md)
+- [🧩 Journeys](README/journey.md)
 
 
 ---
@@ -105,8 +105,8 @@ We're here for you!  📧 Contact: [support@xyz.com](mailto:support@xyz.com)
 
 ## 🎓 Next Steps
 
-- Start with [Users](docs/README/users.md)
-- Then dive into [Events](docs/README/core-concepts-events.md)
+- Start with [Users](README/users.md)
+- Then dive into [Events](README/core-concepts-events.md)
 
 ---
 
